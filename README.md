@@ -12,14 +12,17 @@ To view an implementation of this project that uses multipe subscriptions to mul
 
 You'll need:
 
-* Ruby 2.3.0
-* Postgres
-* Redis
+* Ruby 2.3.4
+* Rails 5.1.4
+* Sqlite3
+* Redis 2.3.3
 
 Then, once you clone down this repo:
 
 * `bundle install`
 * `rake db:create; rake db:migrate`
+*  rails s 
+*  redis-server
 
 And you're all set.
 
